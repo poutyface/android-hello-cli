@@ -1,0 +1,9 @@
+build and install
+-----------------
+
+$ ndk-build
+$ adb push libs/armeabi/hello /data/local/tmp
+$ adb shell
+$ cd /data/local/tmp
+$ chmod 755 hello
+$ ./hello
